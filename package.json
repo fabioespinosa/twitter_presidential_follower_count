@@ -1,19 +1,24 @@
 {
-  "name": "candidatos",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "d3": "^4.11.0",
-    "lodash": "^4.17.4",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14",
-    "react-select": "^1.0.0-rc.10"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+	"name": "candidatos",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://fabioespinosa.github.io/twitter_presidential_follower_count",
+	"dependencies": {
+		"d3": "^4.11.0",
+		"lodash": "^4.17.4",
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"react-scripts": "1.0.14",
+		"react-select": "^1.0.0-rc.10"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"deploy": "npm run build&&gh-pages -d build"
+	},
+	"devDependencies": {
+		"gh-pages": "^1.1.0"
+	}
 }
